@@ -12,4 +12,29 @@ Al cargar la página:
 5. Se inicializa el SDK.
 6. Se solicita el listado de tarjetas guardadas.
 
+**Flujo de inicialización**
+
+```
+document.addEventListener("DOMContentLoaded", async () => {
+  const keysMerchan = await getKeys();
+  const resToken = await createToken(keysMerchan);
+
+  await loadSdk(resToken.sdkData.url);
+
+  window.cmpSDKInstance = new CMPSDK(
+    keysMerchan,
+    resToken,
+    desingCM
+  );
+
+  await window.cmpSDKInstance.init();
+
+  const listCardRes = await window.cmpSDKInstance.getListCard();
+  if (listCardRes.status === "SUCCESS") {
+    renderSavedCards(listCardRes.response);
+  }
+});
+
+```
+
 ---

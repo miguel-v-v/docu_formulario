@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentacion',
+  title: 'Documentación',
   tagline: 'Formulario de pago',
   favicon: 'img/favicon.ico',
 
@@ -30,7 +30,7 @@ const config = {
   organizationName: 'miguel-v-v', // Usually your GitHub org/user name.
   projectName: 'docu_formulario', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

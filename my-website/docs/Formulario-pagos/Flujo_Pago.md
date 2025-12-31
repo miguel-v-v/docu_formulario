@@ -29,6 +29,18 @@ Todos los errores se muestran al usuario mediante alertas claras y controladas.
 
 ---
 
+```
+try {
+  // Flujo principal
+} catch (err) {
+  showAlert({
+    message: err,
+    type: 'warning'
+  });
+}
+
+```
+
 ## Resultado final
 
 - **Pago exitoso**  

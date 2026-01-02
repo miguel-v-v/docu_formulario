@@ -13,6 +13,7 @@ const config = {
   title: 'Documentación',
   tagline: 'Formulario de pago',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

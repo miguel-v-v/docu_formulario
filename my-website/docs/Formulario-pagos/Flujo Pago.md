@@ -21,9 +21,9 @@ El proceso de pago sigue estos pasos:
 
 El sistema contempla:
 
-- Errores de validación del SDK
-- Errores en el procesamiento del pago
-- Excepciones inesperadas
+- Errores de validación del SDK.
+- Errores en el procesamiento del pago.
+- Excepciones inesperadas.
 
 Todos los errores se muestran al usuario mediante alertas claras y controladas.
 

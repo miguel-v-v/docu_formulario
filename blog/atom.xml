@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://miguel-v-v.github.io/docu_formulario/blog/"/>
     <subtitle>Documentación Blog</subtitle>
-    <icon>https://miguel-v-v.github.io/docu_formulario/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://miguel-v-v.github.io/docu_formulario/blog/welcome/</id>

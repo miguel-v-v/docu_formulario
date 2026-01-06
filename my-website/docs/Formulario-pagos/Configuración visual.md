@@ -1,4 +1,4 @@
-## Configuración visual
+
 
 El checkout permite personalizar la apariencia del SDK, incluyendo:
 

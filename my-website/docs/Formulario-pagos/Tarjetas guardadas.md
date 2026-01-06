@@ -1,4 +1,4 @@
-## Tarjetas guardadas
+
 
 Cuando el SDK devuelve tarjetas previamente almacenadas:
 

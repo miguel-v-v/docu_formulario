@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Documentación',
   tagline: 'Formulario de pago',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',//
   trailingSlash: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

@@ -1,4 +1,4 @@
-## Flujo de pago
+
 
 El proceso de pago sigue estos pasos:
 

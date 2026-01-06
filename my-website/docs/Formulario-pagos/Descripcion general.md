@@ -1,4 +1,4 @@
-## Descripción general
+
 
 Este checkout permite realizar pagos con tarjeta utilizando el **SDK de CM Pagos**.  
 Soporta el uso de **tarjetas guardadas**, el registro de **nuevas tarjetas** y la opción de **guardar tarjetas para pagos futuros**.

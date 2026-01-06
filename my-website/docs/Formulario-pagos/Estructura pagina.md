@@ -1,4 +1,4 @@
-## Estructura de la página
+
 
 La página está compuesta por un formulario de pago centralizado, con estilos basados en **Bootstrap**, y un contenedor dinámico para mostrar alertas y tarjetas guardadas.
 

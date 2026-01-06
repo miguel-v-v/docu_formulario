@@ -8,25 +8,25 @@ const FeatureList = [
     Svg: require('@site/static/img/cm.svg').default,
     description: (
       <>
-        Este Formulario esta diseñado para que pueda hacer pagos facilmente.
+        Este formulario está diseñado para que se entienda el diseño del formulario de pago.
       </>
     ),
   },
   {
-    title: 'No pierdas tiempo',
+    title: 'Visualizacion',
     Svg: require('@site/static/img/cm.svg').default,
     description: (
       <>
-        Paga desde una misma pagina sin retrazos
+        Documentación para la visualización del formulario de pago.
       </>
     ),
   },
   {
-    title: 'Todo en un solo click',
+    title: 'Entiende la estructura',
     Svg: require('@site/static/img/cm.svg').default,
     description: (
       <>
-        Extiende tu negocio a otros lugares.
+        Permite comprender la estructura del formulario de pago.
       </>
     ),
   },

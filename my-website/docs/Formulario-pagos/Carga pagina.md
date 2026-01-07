@@ -7,15 +7,66 @@ Al cargar la página:
 const keysMerchan = await getKeys();
 
 ```
+**Adjunto funcion requerida**
+```
+async function getKeys() {
+  const res = await fetch("http://localhost:8081/api/keys", {
+    method: "GET",
+    headers: {
+          'Content-Type': 'application/json'
+      },
+  });
+
+  return res.json();
+}
+```
+
 2. Se genera un token de sesión para el SDK (el cual se genera desde backend).
 ```
 const resToken = await createToken(keysMerchan);
 
 ```
+**Adjunto funcion requerida**
+```
+async function createToken(setHeaders) {
+  try {
+    console.log(setHeaders)
+    const res = await fetch("http://localhost:8081/api/token", {
+      method: "POST",
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(setHeaders)
+    });
+    return res.json();
+  } catch (error) {
+    throw new Error("Error inesperado al validar.");
+  }
+
+
+}
+```
 3. Se carga dinámicamente el SDK de CM Pagos.
 ```
 await loadSdk(resToken.sdkData.url);
 
+```
+**Adjunto funcion requerida**
+```
+function loadSdk(src) {
+  return new Promise((resolve, reject) => {
+    if (window.CMPSDK) {
+      resolve();
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = src;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("No se pudo cargar el SDK"));
+    document.head.appendChild(script);
+  });
+}
 ```
 4. Se crea una instancia del SDK con:
    - Llaves del comercio

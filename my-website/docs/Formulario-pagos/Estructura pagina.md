@@ -22,7 +22,16 @@ La página está compuesta por un formulario de pago centralizado, con estilos b
 </body>
 </html>
 ```
+**Tenemos las siguientes funciones que nos ayudan a conectarnos con el backend**
+- getKeys()
 
+- createToken()
+
+- createPayment()
+
+- loadSdk()
+
+- showAlert()
 
 ### Componentes principales
 

@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Facil de usar',
-    Svg: require('@site/static/img/cm.svg').default,
+    title: 'Fácil de usar',
+    Svg: require('@site/static/img/CM_Pagos.svg').default,
     description: (
       <>
         Este formulario está diseñado para que se entienda el diseño del formulario de pago.
@@ -13,8 +13,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Visualizacion',
-    Svg: require('@site/static/img/cm.svg').default,
+    title: 'Visualización',
+    Svg: require('@site/static/img/CM_Pagos.svg').default,
     description: (
       <>
         Documentación para la visualización del formulario de pago.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Entiende la estructura',
-    Svg: require('@site/static/img/cm.svg').default,
+    Svg: require('@site/static/img/CM_Pagos.svg').default,
     description: (
       <>
         Permite comprender la estructura del formulario de pago.

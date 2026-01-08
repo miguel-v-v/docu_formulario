@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Documentación',
   tagline: 'Formulario de pago',
-  //favicon: 'img/favicon.ico',//
+  favicon: 'img/CM_Pagos.svg',
   trailingSlash: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -84,10 +84,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Documentacion formulario de pago',
+        title: 'Documentación formulario de pago',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/cm.svg',
+          src: 'img/CM_Pagos.svg',
         },
         items: [
           {

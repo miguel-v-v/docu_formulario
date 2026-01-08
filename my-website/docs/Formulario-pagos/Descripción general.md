@@ -10,27 +10,28 @@ El flujo está diseñado para que el comercio:
 - Muestre el resultado al usuario final
 
 ## Arquitectura general
-[ Navegador / Frontend ]
--> 
-| 1. Solicita llaves públicas
--> 
+
+**[ Navegador / Frontend ]**
+
+1. Solicita llaves públicas
+->
 [ Backend Express ]
--> 
-| 2. Solicita token a CM Pagos
--> 
+
+2. Solicita token a CM Pagos
+->
 [ CM Pagos API ]
--> 
-| 3. Devuelve token
--> 
+
+3. Devuelve token
+->
 [ Frontend ]
--> 
-| 4. SDK valida tarjeta
--> 
-| 5. Solicita pago
--> 
+
+4. SDK valida tarjeta
+
+5. Solicita pago
+->
 [ Backend Express ]
--> 
-| 6. Ejecuta pago
+
+6. Ejecuta pago
 -> 
 [ CM Pagos API ]
 
